@@ -20,5 +20,5 @@ class Song extends React.Component<AppState, AppProps> {
 return <div><p> {this.give.name}</p></div>
   }
 }
-ReactDOM.render(<Song/>,document.getElementById('non'));
+ReactDOM.render("none",document.getElementById('non'));
 
